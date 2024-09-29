@@ -24,7 +24,7 @@ A TypeScript Monorepo Template for full-stack applications, designed to:
 To run the dev server for your app, use:
 
 ```sh
-npx nx serve backend
+bun backend | npm run backend
 ```
 
 To create a production bundle:

@@ -2,7 +2,9 @@
   "name": "@fullstack-starter-template/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "backend": "npx nx serve backend"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^10.0.2",

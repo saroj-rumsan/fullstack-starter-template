@@ -4,11 +4,12 @@
   "license": "MIT",
   "scripts": {
     "frontend": "nx dev frontend ",
-    "backend" : "nx serve backend"
+    "backend": "nx serve backend"
   },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^10.0.2",
+    "@nestjs/config": "^3.2.3",
     "@nestjs/core": "^10.0.2",
     "@nestjs/platform-express": "^10.0.2",
     "axios": "^1.6.0",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
     "@eslint/js": "^9.8.0",
+    "@nestjs/mapped-types": "^2.0.5",
     "@nestjs/schematics": "^10.0.1",
     "@nestjs/testing": "^10.0.2",
     "@nx/cypress": "19.8.2",

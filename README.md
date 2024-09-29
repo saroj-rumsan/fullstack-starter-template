@@ -10,8 +10,12 @@ A TypeScript Monorepo Template for full-stack applications, designed to:
  ## On Development
  A TypeScript Monorepo Template for full-stack applications, designed to:
 
-- FrontEnd App
 - Authentication module 
+
+### Frontend
+
+- [Next]() - main frontend framework of react
+- [tailwind]() - for styling
 
 
 ### Backend
@@ -20,6 +24,12 @@ A TypeScript Monorepo Template for full-stack applications, designed to:
 
 
 ## Run tasks
+
+To run the dev client for your app use: 
+
+```sh
+bun frontend | npm run frontend
+```
 
 To run the dev server for your app, use:
 
